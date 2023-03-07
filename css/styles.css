@@ -1,0 +1,270 @@
+/* arial a todo el texto*/
+*{
+  font-family: arial;
+}
+
+header{
+  width: 90%;
+  max-width: 1140px;
+  margin: 0em auto;  /*centramos el contenido horizontalmente*/
+}
+
+nav{
+  width: 90%;
+  max-width: 1140px;
+  margin: 0em auto;  /*centramos el contenido horizontalmente*/
+}
+
+/*reseteamos a 0 para que no tenga espacio el body*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*margen inferior a las imagenes*/
+figure{
+  margin-bottom: 30px;
+}
+
+/*da color, bordes y maximo de ancho*/
+.container {
+  border: 1px solid #204411;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  max-width: 1140px;
+  margin: 0em auto;  /*centramos el contenido horizontalmente*/
+  text-align: center;
+  width: 90%;
+}
+
+/*transforma a caja en linea y da color de fondo*/
+.cajafondogris{
+  display: inline-flex;
+  background-color: #f2f2f2;
+  max-width: 1140px;
+}
+
+/*establece margenes*/
+.citas{
+  margin: 20px 50px 50px 50px;
+}
+
+/*estilos de fuente*/
+.citas h1{
+  font-family: georgia;
+  font-size: 36px;
+}
+
+.citas p{
+  font-size: 18px;
+  font-family: georgia;
+  font-style: italic;
+  padding: 0px 50px 0px 50px;
+}
+
+.citas cite{
+  font-size: 14px;
+}
+
+.citas .autor{
+  color: #ba3925;
+}
+
+/*establece margen*/
+.instrucciones{
+  margin: 50px 0px 50px 0px;
+}
+
+/*estilos de fuente*/
+.instrucciones h2{
+  font-size: 26px;
+}
+
+.instrucciones h3{
+  font-family: georgia;
+}
+
+.instrucciones cite , .instrucciones p{
+  font-style: normal;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+
+.instrucciones ul{
+  list-style: none;
+  text-align: left;
+}
+
+/*color y negrita a los autores*/
+.autor{
+  color: #2455c3;
+  font-weight: bold;
+}
+
+/*borde inferior y margenes a la caja*/
+.lineastyleguides{
+  border-bottom: 1px solid #204411;
+  margin: 0px 30px 0px 30px;
+}
+
+/*da estilo de circulo vacio a la lista y indenta*/
+.bulletidented{
+  margin-left: 50px;
+  list-style-type: circle;
+}
+
+/*alinea texto a la izq y da margen*/
+.margenescaja{
+  text-align: left;
+  margin: 30px 30px 20px 30px;
+}
+
+/*alinea texto al centro*/
+.margenescaja h1,.margenescaja h3,.margenescaja figure{
+  text-align: center;
+}
+
+/*cambia fuente y tamaño*/
+.plaintext{
+  font-family: georgia;
+  font-size: 14px;
+}
+
+/*otorga margen*/
+.pasos{
+  margin: 50px 0px 50px 0px;
+}
+
+/*dan estilos de fuente*/
+.pasos h3{
+  text-align: left;
+  font-family: georgia;
+
+}
+
+.pasos p{
+  font-style: normal;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+
+.pasos ul, .pasos li{
+  list-style: none;
+  text-align: left;
+}
+
+/*color y fuente a los autores*/
+.textorojo{
+  font-family: georgia;
+  display: block;
+  font-size: 30px;
+  color: #ba3925;
+  margin: 20px 0px;
+}
+
+.textoazul{
+  font-family: georgia;
+  display: block;
+  font-size: 30px;
+  color: #2455c3;
+  margin: 30px 0px;
+}
+
+/* centra imagenes*/
+.imagencentrada img{
+  text-align: center;
+  width: 80%;
+}
+
+/*quita color a los hipervinculos*/
+.hipervinculos {
+    text-decoration:none;
+    color: #2455c3;
+}
+
+/*pone fondo al texto en la cabecera*/
+#imagencabecerahome{
+  padding: 50px 0px 50px 0px;
+  border-bottom: 2px solid black;
+  background-image: url(../img/header-home.jpg);
+  background-size: cover;
+  background-position: 0px -50px;
+  vertical-align: middle;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  font-family: georgia;
+}
+
+#imagencabecerastyleguide{
+  padding: 50px 0px 50px 0px;
+  border-bottom: 2px solid black;
+  background-image: url(../img/header-style-guides.jpg);
+  background-size: cover;
+  background-position: 0px -100px;
+  vertical-align: middle;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  font-family: georgia;
+}
+
+/*crea caja en linea para los navs, quita estilo*/
+#navsuperiorhome ul{
+  display: inline-flex;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+#navsuperiorhome a{
+  color:inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+/*otorga colora la primera palabra de la lista*/
+#navsuperiorhome li:first-child{
+  color: #b3b3b3;
+}
+
+#navsuperiorstyleguides ul{
+  display: inline-flex;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+#navsuperiorstyleguides a{
+  color:inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+/*otorga colora a la palabra elegida de la lista*/
+#navsuperiorstyleguides li:nth-child(2){
+  color: #b3b3b3;
+}
+
+/*crea caja en linea para los navs, quita estilo*/
+#navfooter{
+  border-bottom: 3px solid black;
+}
+
+#navfooter ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 40px 200px 40px 200px;
+}
+
+#navfooter a{
+  color:inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+  margin-left: 30px;
+}
